@@ -22,14 +22,6 @@ h3 {
   font-family: 'Francois One', sans-serif;
 }
 
-hr {
-  width: 100px;
-  color: #F9F2ED;
-  border-style: dotted;
-  border-width: thick;
-  margin-bottom: 70px;
-  margin-top: 70px;
-}
 
 p {
   width: 40%;
@@ -42,6 +34,7 @@ p {
   background-color: #EEE4AB;
   color: #001D6E;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 .hi {
@@ -72,6 +65,12 @@ p {
   height: 100px;
   left: 300px;
   bottom: 300px;
+}
+.dot {
+margin: 0 auto;
+padding-top: 70px;
+padding-bottom: 70px;
+
 }
 
 .first-container {
