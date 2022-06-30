@@ -29,6 +29,9 @@ p {
 }
 
 
+.credentials{
+  font-size: 1.5rem;
+}
 
 .profile {
   background-color: #EEE4AB;
@@ -120,4 +123,14 @@ padding-bottom: 70px;
 
 .column {
   padding: 10px;
+}
+.infosys-image{
+  width: 100px;
+}
+.revature-image {
+  width: 100px
+}
+.UIS-image{
+  width: 100px
+
 }
