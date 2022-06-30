@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #F9F2ED;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.25rem;
+}
+
+h2 {
+  color: #001D6E;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #FF7396;
+  font-family: 'Francois One', sans-serif;
+}
+
+hr {
+  width: 100px;
+  color: #F9F2ED;
+  border-style: dotted;
+  border-width: thick;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+.profile {
+  background-color: #EEE4AB;
+  color: #001D6E;
+  margin: 0 auto;
+}
+
+.hi {
+  color: #F9F2ED;
+  font-size: 1.9rem;
+  margin: 0 auto;
+}
+
+.contact-me {
+  background-color: #FFBF86;
+  color: #F9F2ED;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+.cloud1 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 300px;
+  bottom: 300px;
+}
+
+.first-container {
+  background-color: #3AB0FF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+
+}
+
+.second-container {
+  background-color: #EEE4AB;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #001D6E;
+  margin: 0 auto;
+}
+
+.bottom-container {
+  background-color: #FFBF86;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  color: #F9F2ED;
+  margin: 0 auto;
+}
+
+.sun {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 475px;
+  bottom: 350px;
+}
+
+.tech-table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+
+}
+
+.column {
+  padding: 10px;
+}
