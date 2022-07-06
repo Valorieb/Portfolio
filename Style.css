@@ -141,12 +141,13 @@ padding-bottom: 70px;
   margin: 0 auto;
 }
 
+
 .sun {
   position: absolute;
   height: auto;
-  width: 10%;
+  width: 15%;
   left: 30%;
-  bottom: 50%;
+  bottom: 40%;
   display: flex;
 }
 
