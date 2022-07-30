@@ -7,14 +7,16 @@ body {
 h1 {
   color: #F9F2ED;
   margin-top: 0;
-  font-family: 'Sacramento', cursive;
+  font-family:'Sacramento', cursive;
   font-size: 6.25rem;
+  padding: 1.5rem;
 }
 
 h2 {
   color: #001D6E;
   font-family: 'Francois One', sans-serif;
   font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -22,9 +24,32 @@ h3 {
   font-family: 'Francois One', sans-serif;
 }
 
-
 p {
   width: 40%;
+  margin: 0 auto;
+}
+
+/*-----------CLASSES-------------*/
+
+.aboutTable {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+
+  .books {
+  width: 10%;
+  height:auto;
+    margin: 0 auto;
+  }
+
+
+.bottom-container {
+  background-color: #FFBF86;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  color: #F9F2ED;
   margin: 0 auto;
 }
 
@@ -55,31 +80,6 @@ p {
   text-decoration: none;
 }
 
-.credentials{
-  font-size: 1.5rem;
-}
-
-.profile {
-  background-color: #EEE4AB;
-  color: #001D6E;
-  margin: 0 auto;
-  padding-bottom: 15px;
-}
-
-.hi {
-  color: #F9F2ED;
-  font-size: 1.9rem;
-  margin: 0 auto;
-}
-
-.contact-me {
-  background-color: #FFBF86;
-  color: #F9F2ED;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  margin: 0 auto;
-}
-
 .cloud1 {
   position: absolute;
   width: auto;
@@ -92,23 +92,40 @@ p {
 .cloud2 {
   position: absolute;
   width: auto;
-  height: 20%;
+  height: 10%;
   left: 15%;
   bottom: 35%;
   display: flex;
 }
-.dot {
-margin: 0 auto;
-padding-top: 70px;
-padding-bottom: 70px;
 
+.column {
+  padding: 10px;
 }
 
-.education-row{
-  width: 50%;
-  margin: 100px auto;
+.contact-me {
+  background-color: #FFBF86;
+  color: #F9F2ED;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
 
-  line-height: 2;
+.credentials {
+  font-size: 1.5rem;
+}
+.doodling{
+  text-align: center;
+}
+.dot {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display:block;
+}
+
+.education-row {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .first-container {
@@ -117,9 +134,65 @@ padding-bottom: 70px;
   padding-top: 100px;
 }
 
+.hi {
+  color: #F9F2ED;
+  font-size: 1.9rem;
+  margin: 0 auto;
+}
+
+
+.infosys-image {
+  width: 100px;
+
+
+}
+
+.linkImage {
+  margin: 0 auto;
+  height: auto;
+  width: 25%;
+  display: flex;
+}
+
+.mountain{
+  margin: 0 auto;
+  height: auto;
+  width: 85%;
+  display:flex;
+}
+
 .portrait {
   width: auto;
   height: 150px;
+  padding: 1.5rem;
+}
+
+.profile {
+  background-color: #EEE4AB;
+  color: #001D6E;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.pythonCert{
+  margin:0 auto;
+  height: auto;
+  width: 30%;
+  padding: 1.5rem;
+}
+
+.restImage{
+
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.revature-image {
+  width: 100px;
+
 
 }
 
@@ -132,22 +205,19 @@ padding-bottom: 70px;
   margin: 0 auto;
 }
 
-.bottom-container {
-  background-color: #FFBF86;
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  color: #F9F2ED;
+.SEOCert{
   margin: 0 auto;
+  padding: 1.5rem;
+  width: 30%;
+  height: auto;
 }
-
 
 .sun {
   position: absolute;
   height: auto;
-  width: 15%;
-  left: 30%;
-  bottom: 40%;
+  width: 20%;
+  right: 10%;
+  bottom: 30%;
   display: flex;
 }
 
@@ -155,22 +225,41 @@ padding-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+}
+
+.UIS-image {
+  width: 100px;
 
 }
 
-.column {
-  padding: 10px;
+.video {
+  margin: 20px;
 }
-.infosys-image{
-  width: 100px;
-  float:left;
-}
-.revature-image {
-  width: 100px;
-  float:left;
-}
-.UIS-image{
-  width: 100px;
-  float: left;
 
+.about{
+  text-align: center;
+
+}
+
+#about-s{
+  padding: 7% 25%;
+}
+
+.linkImage:hover{
+  color: #3AB0FF;
+}
+
+.scrum{
+  width: 15%;
+}
+
+.infosys{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.revature{
+  text-align: center;
+  margin: 0 auto;
 }
