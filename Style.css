@@ -134,6 +134,14 @@ p {
   padding-top: 100px;
 }
 
+.gbtug{
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
 .hi {
   color: #F9F2ED;
   font-size: 1.9rem;
@@ -230,6 +238,14 @@ p {
 .UIS-image {
   width: 100px;
 
+}
+
+.ukulele{
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 .video {
