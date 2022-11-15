@@ -159,6 +159,7 @@ p {
 
 .infosys-image {
   width: 100px;
+  padding-top: 2rem;
 }
 
 .linkImage {
@@ -178,7 +179,7 @@ p {
 .portrait {
   width: auto;
   height: 150px;
-  padding: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .profile {
@@ -206,6 +207,7 @@ p {
 
 .revature-image {
   width: 100px;
+  padding-top: 2rem;
 }
 
 .second-container {
@@ -236,10 +238,12 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+
 }
 
 .UIS-image {
   width: 100px;
+  padding-bottom: 2rem;
 }
 
 .ukulele{
@@ -281,7 +285,8 @@ p {
 }
 
 
-/*--- SIDEBAR--- */
+
+/*------- SIDEBAR------- */
 
 .app{
   display: flex;
