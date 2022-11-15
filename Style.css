@@ -151,6 +151,10 @@ p {
   padding: 1.5rem;
 }
 
+.headers{
+  margin-left: 300px;
+}
+
 .hi {
   color: #F9F2ED;
   font-size: 1.9rem;
