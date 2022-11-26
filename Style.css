@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,13 +9,12 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-
 }
 
 h1 {
   color: #F9F2ED;
   margin-top: 0;
-  font-family:'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
   font-size: 6.25rem;
   padding: 1.5rem;
 }
@@ -38,19 +37,22 @@ p {
 }
 
 /*-----------CLASSES-------------*/
-
 .aboutTable {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
 
-  .books {
+.badge {
+  height: 20%;
+  padding-top: 30px;
+}
+
+.books {
   width: 10%;
-  height:auto;
-    margin: 0 auto;
-  }
-
+  height: auto;
+  margin: 0 auto;
+}
 
 .bottom-container {
   background-color: #FFBF86;
@@ -121,14 +123,16 @@ p {
 .credentials {
   font-size: 1.5rem;
 }
-.doodling{
+
+.doodling {
   text-align: center;
 }
+
 .dot {
   margin: 0 auto;
   padding-top: 70px;
   padding-bottom: 70px;
-  display:block;
+  display: block;
 }
 
 .education-row {
@@ -143,7 +147,7 @@ p {
   margin-left: 300px;
 }
 
-.gbtug{
+.gbtug {
   width: 30%;
   height: auto;
   display: block;
@@ -151,7 +155,7 @@ p {
   padding: 1.5rem;
 }
 
-.headers{
+.headers {
   margin-left: 300px;
 }
 
@@ -160,7 +164,6 @@ p {
   font-size: 1.9rem;
   margin: 0 auto;
 }
-
 
 .infosys-image {
   width: 100px;
@@ -174,11 +177,11 @@ p {
   display: flex;
 }
 
-.mountain{
+.mountain {
   margin: 0 auto;
   height: auto;
   width: 85%;
-  display:flex;
+  display: flex;
 }
 
 .portrait {
@@ -194,15 +197,14 @@ p {
   padding-bottom: 15px;
 }
 
-.pythonCert{
-  margin:0 auto;
+.pythonCert {
+  margin: 0 auto;
   height: auto;
   width: 30%;
   padding: 1.5rem;
 }
 
-.restImage{
-
+.restImage {
   width: 30%;
   height: auto;
   display: block;
@@ -223,7 +225,7 @@ p {
   margin-left: 300px;
 }
 
-.SEOCert{
+.SEOCert {
   margin: 0 auto;
   padding: 1.5rem;
   width: 30%;
@@ -243,7 +245,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
-
 }
 
 .UIS-image {
@@ -251,7 +252,7 @@ p {
   padding-bottom: 2rem;
 }
 
-.ukulele{
+.ukulele {
   width: 30%;
   height: auto;
   display: block;
@@ -263,66 +264,62 @@ p {
   margin: 20px;
 }
 
-.about{
+.about {
   text-align: center;
 }
 
-#about-s{
+#about-s {
   padding: 7% 25%;
 }
 
-.linkImage:hover{
+.linkImage:hover {
   color: #3AB0FF;
 }
 
-.scrum{
+.scrum {
   width: 15%;
 }
 
-.infosys{
+.infosys {
   text-align: center;
   margin: 0 auto;
 }
 
-.revature{
+.revature {
   text-align: center;
   margin: 0 auto;
 }
-
-
 
 /*------- SIDEBAR------- */
-
-.app{
+.app {
   display: flex;
   min-height: 100vh;
 }
 
-.sidebar{
+.sidebar {
   flex: 1 1 0;
-width: 300px;
-height: 100%;
+  width: 300px;
+  height: 100%;
   max-width: 300px;
   padding: 2rem 1rem;
   position: fixed;
   top: 0;
   background-color: #2e3047;
   z-index: 1111111;
-
 }
 
-.sidebar h3{
+.sidebar h3 {
   color: #707793;
   font-size: 0.75rem;
   text-transform: uppercase;
   margin-bottom 0.5rem;
 }
 
-.sidebar .menu{
+.sidebar .menu {
   margin: 0 -1rem;
 }
 
-.sidebar .menu .menu-item{
+.sidebar .menu .menu-item {
   display: block;
   padding: 1em;
   color: white;
@@ -334,7 +331,6 @@ height: 100%;
 .sidebar .menu .menu-item.is-active {
   color: #3bba9c;
   border-right: 5px solid #3bba9c;
-
 }
 
 .content {
@@ -342,16 +338,14 @@ height: 100%;
   padding: 2rem;
 }
 
-.content h1{
-
+.content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-
-.menu-toggle{
+.menu-toggle {
   display: none;
-  position:fixed;
+  position: fixed;
   top: 2rem;
   right: 2rem;
   width: 60px;
@@ -361,7 +355,7 @@ height: 100%;
   cursor: pointer;
 }
 
-.hamburger{
+.hamburger {
   position: relative;
   top: calc(50% - 2px);
   left: 50%;
@@ -369,11 +363,11 @@ height: 100%;
   width: 32px;
 }
 
-.hamburger > span,
-.hamburger > span::before,
-.hamburger > span::after {
-  display:block;
-  position:absolute;
+.hamburger>span,
+.hamburger>span::before,
+.hamburger>span::after {
+  display: block;
+  position: absolute;
   width: 100%;
   height: 4px;
   border-radius: 99px;
@@ -381,29 +375,32 @@ height: 100%;
   transition-duration: .25s;
 }
 
-.hamburger > span::before{
-  content:'';
-  top:-8px;
+.hamburger>span::before {
+  content: '';
+  top: -8px;
 }
-.hamburger > span::after {
-  content:'';
+
+.hamburger>span::after {
+  content: '';
   top: 8px;
 }
 
-.menu-toggle.is-active .hamburger >span{
+.menu-toggle.is-active .hamburger>span {
   transform: rotate(45deg);
 }
-.menu-toggle.is-active .hamburger> span::before {
+
+.menu-toggle.is-active .hamburger>span::before {
   top: 0;
   transform: rotate(0deg);
 }
-.menu-toggle.is-active .hamburger> span::after {
+
+.menu-toggle.is-active .hamburger>span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-@media (max-width: 1024px){
-  .sidebar{
+@media (max-width: 1024px) {
+  .sidebar {
     max-width: 200px;
   }
 }
@@ -411,15 +408,15 @@ height: 100%;
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-
   }
-  .content{
+
+  .content {
     padding-top: 8rem;
   }
 
-  .sidebar{
+  .sidebar {
     position: fixed;
-    top:0;
+    top: 0;
     left: -300px;
     height: 100vh;
     width: 100%;
@@ -427,7 +424,7 @@ height: 100%;
     transition: 0.2s linear;
   }
 
-  .sidebar.is-active{
+  .sidebar.is-active {
     left: 0;
   }
 }
