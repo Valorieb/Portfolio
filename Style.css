@@ -163,6 +163,8 @@ p {
 
 .headers {
   margin-left: 300px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .hi {
