@@ -163,6 +163,8 @@ p {
 
 .headers {
   margin-left: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -237,6 +239,8 @@ p {
   padding-top: 25px;
   color: #001D6E;
   margin-left: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .SEOCert {
