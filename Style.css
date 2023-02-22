@@ -60,7 +60,18 @@ p {
   padding-top: 25px;
   padding-bottom: 10px;
   color: #F9F2ED;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bottom-container1 {
+  background-color: #FFBF86;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  color: #F9F2ED;
   margin-left: 300px;
+
 }
 
 .btn {
@@ -117,7 +128,7 @@ p {
   color: #F9F2ED;
   padding-top: 25px;
   padding-bottom: 15px;
-  margin: 0 auto;
+  
 }
 
 .credentials {
