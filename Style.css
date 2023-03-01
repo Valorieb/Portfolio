@@ -128,7 +128,7 @@ p {
   color: #F9F2ED;
   padding-top: 25px;
   padding-bottom: 15px;
-  
+
 }
 
 .credentials {
@@ -204,6 +204,13 @@ p {
   display: flex;
 }
 
+.mit-image {
+  margin: 1rem;
+  height: auto;
+  width: 50%;
+
+}
+
 .mountain {
   margin: 0 auto;
   height: auto;
@@ -277,6 +284,8 @@ p {
 }
 
 .UIS-image {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
   width: 100px;
   padding-bottom: 2rem;
 }
