@@ -211,6 +211,13 @@ p {
 
 }
 
+.mitCert {
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  padding: 1.5rem;
+}
+
 .mountain {
   margin: 0 auto;
   height: auto;
