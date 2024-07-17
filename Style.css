@@ -188,6 +188,15 @@ p {
   margin: 0 auto;
 }
 
+.icon-new-tab {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("/images/new-tab.png");
+  background-size: cover;
+  margin-left: 5px;
+}
+
 .infosys-image {
   width: 100px;
   padding-top: 2rem;
