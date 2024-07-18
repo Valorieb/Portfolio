@@ -5,7 +5,7 @@
   font-family: "Fire Sans", sans-serif;
 }
 a:link {
-  text-underline-offset: 0.1em;
+  text-underline-offset: 0.3em;
 }
 
 body {
@@ -91,7 +91,7 @@ p {
   font-size: 16px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
 }
 
 .btn:hover {
