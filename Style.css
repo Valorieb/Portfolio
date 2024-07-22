@@ -58,7 +58,7 @@ p {
 }
 
 .bottom-container {
-  background-color: #ffbf86;
+  background-color: #ffcea3;
   position: relative;
   padding-top: 25px;
   padding-bottom: 10px;
@@ -68,7 +68,7 @@ p {
 }
 
 .bottom-container1 {
-  background-color: #ffbf86;
+  background-color: #ffcea3;
   position: relative;
   padding-top: 25px;
   padding-bottom: 10px;
@@ -127,7 +127,7 @@ p {
 }
 
 .contact-me {
-  background-color: #ffbf86;
+  background-color: #ffcea3;
   color: #f9f2ed;
   padding-top: 25px;
   padding-bottom: 15px;
@@ -192,7 +192,7 @@ p {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url("/images/new-tab.png");
+  background-image: url("images/new-tab.png");
   background-size: cover;
   margin-left: 5px;
 }
