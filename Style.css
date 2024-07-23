@@ -155,6 +155,7 @@ p {
 
 .first-container {
   background-color: #008deb;
+  color: #141414;
   position: relative;
   padding-top: 100px;
   margin-left: 300px;
@@ -195,6 +196,10 @@ p {
   background-image: url("images/new-tab.png");
   background-size: cover;
   margin-left: 5px;
+}
+
+.image-column {
+  width: 64px;
 }
 
 .infosys-image {
