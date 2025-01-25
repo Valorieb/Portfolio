@@ -65,6 +65,7 @@ p {
   color: #001d6e;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 300px;
 }
 
 .bottom-container1 {
@@ -158,6 +159,7 @@ p {
   color: #141414;
   position: relative;
   padding-top: 100px;
+  margin-top: 0;
   margin-left: 300px;
 }
 
@@ -280,7 +282,7 @@ p {
   color: #001d6e;
   margin-left: 300px;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .SEOCert {
