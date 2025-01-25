@@ -30,27 +30,25 @@
 
 
     <div class="app">
+
       <div class="menu-toggle">
         <div class="hamburger">
-          <span></span>
+          <!-- <span></span> -->
         </div>
       </div>
 
       <aside class="sidebar">
-
         <h3>Menu</h3>
-
         <nav class="menu">
           <a href="index.html" class="menu-item is-active">Home</a>
           <a href="projects.html" class="menu-item">Projects</a>
           <a href="certificates.html" class="menu-item">Certificates</a>
           <a href="hobbies.html" class="menu-item">Hobbies</a>
         </nav>
-
       </aside>
+      </div>
+
       <main class="content">
-
-
         <div class="first-container">
           <img class="cloud1" src="images/Cloud.png" alt="cloud">
           <h1>Hi, I'm Valorie</h1>
@@ -198,7 +196,6 @@
           </table>
 
           <div class="skill-row">
-            <img class="" src="" alt="">
             <img class="dot" src="images/dot.png" alt="dotted line">
 
             <h3>Soft Skills</h3>
@@ -236,8 +233,9 @@
       menu_toggle.addEventListener('click', () => {
         menu_toggle.classList.toggle('is-active');
         sidebar.classList.toggle('is-active');
-      })
+      });
     </script>
+
   </body>
 
 </html>
